@@ -1,0 +1,16 @@
+{
+  "name": "SmallStoveDocument",
+  "version": "1.0.0",
+  "description": "小灶的文档库",
+  "main": "index.js",
+  "author": "BugOS-ly",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.9"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
